@@ -5,13 +5,14 @@
     gap: 3rem;
   }
   
-  .about__description-header {
+  .about__description h3 {
     color: var(--white);
     margin-bottom: 1rem;
     text-transform: capitalize;
     font-size: 2rem;
   }
-  .about__description-text {
+
+  .about__description p {
     line-height: 1.5rem;
     color: var(--white);
     font-size: 18px;

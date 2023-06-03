@@ -3,20 +3,7 @@
 <section class="hero"></section>
 <section class="about">
   <div class="about__description">
-    <h3 class="about__description-header">
-      Idaslet is a danish folk metal band based in Copenhagen
-    </h3>
-    <p class="about__description-text">
-      Idaslet sprouts in the soil of the Danish underground. With their version
-      of folk metal, Idaslet set off on their first viking voyage in 2020 with
-      the release of their EP "Lurernes Glammen", and has now set sail for the
-      Danish cities. With roots firmly planted in sagas and folk songs, Idaslet
-      sings Danish stanzas both with growl and beautiful clean vocals.
-    </p>
-    <p class="about__description-text">
-      Accordions and guitars enrich the soundscape with folk melodies, while
-      drums and bass deliver rhythms that invite you to dance and sing along.
-    </p>
+    <?php the_content(); ?>
   </div>
   <div class="about__music">
     <iframe
