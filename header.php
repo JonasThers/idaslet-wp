@@ -8,6 +8,6 @@
     <?php wp_head(); ?>
   </head>
   <body>
-    <header class="header">
-      <h1 class="header__title"><?php bloginfo('name'); ?></h1>
+    <header id="header" class="header">
+      <h1 id="header-title" class="header__title"><?php bloginfo('name'); ?></h1>
     </header>
