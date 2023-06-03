@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="content center">
+<div class="container center">
     <h2>404</h2>
     <h3>Wow there, dear viking! Where are you going?</h3>
     <h3>Not here, that's for sure!</h3>
