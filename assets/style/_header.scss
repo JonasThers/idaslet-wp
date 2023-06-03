@@ -16,6 +16,11 @@
   .header--dark {
       background: var(--transparent-black);
   }
+
+  .header--black {
+    background: var(--black);
+    border-bottom: solid 1px var(--white);
+  }
   
   .header__title--white {
       color: var(--white);
