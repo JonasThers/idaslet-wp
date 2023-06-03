@@ -6,5 +6,6 @@
           <p>General inquiries: <a href="mailto:Idaslet@Idaslet.dk">Idaslet@Idaslet.dk</a></p>
         </div>
       </footer>
+      <?php wp_footer(); ?>
   </body>
 </html>
