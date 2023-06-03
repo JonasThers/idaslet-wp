@@ -1,3 +1,5 @@
+<?php get_header(); ?>
+
 <section class="hero"></section>
 <section class="about">
   <div class="about__description">
@@ -29,3 +31,5 @@
     ></iframe>
   </div>
 </section>
+
+<?php get_footer(); ?>
