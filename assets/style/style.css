@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+body {
+  margin: 0;
+  background: black;
+  font-family: 'EB Garamond', serif;
+}
+
+:root {
+  --black: #010101;
+  --white: #dbdbdb;
+  --transparent-black: rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.header__title {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  padding-left: 1rem;
+  text-transform: uppercase;
+}
+
+.header--dark {
+  background: var(--transparent-black);
+}
+
+.header__title--white {
+  color: var(--white);
+}
+
+@media only screen and (min-width: 768px) {
+  .header__title {
+    font-size: 45px;
+  }
+}
+
+.hero {
+  height: 320px;
+  background-image: url("../img/background-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero {
+    height: 50vh;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero {
+    height: 100vh;
+    background-image: url("../img/background-desktop.jpg");
+  }
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2rem;
+  gap: 3rem;
+}
+
+.about__description-header {
+  color: var(--white);
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+
+.about__description-text {
+  line-height: 1.5rem;
+  color: var(--white);
+  font-size: 18px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about {
+    padding: 6rem 4rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .about {
+    padding: 8rem;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .about__description,
+  .about__music {
+    width: 50%;
+  }
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 3rem;
+}
+
+.footer__header {
+  text-transform: capitalize;
+  color: var(--white);
+}
+
+.footer__emails {
+  color: var(--white);
+  text-align: center;
+}
+
+.footer__emails a {
+  color: var(--white);
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
