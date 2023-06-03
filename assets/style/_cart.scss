@@ -1,0 +1,29 @@
+.cart-override * {
+  color: var(--white);
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1pt solid var(--white);
+}
+
+.checkout-button.checkout-button.checkout-button.checkout-button.checkout-button.checkout-button {
+  background-color: var(--black);
+  border: 1px solid var(--white);
+}
+
+.woocommerce-cart-form {
+  border: 1px solid var(--white);
+  border-radius: 5px;
+}
+
+.input-text {
+  color: var(--black);
+}
+
+.cart_totals {
+    color: var(--white);
+}
