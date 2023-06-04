@@ -1,0 +1,23 @@
+.highlighted-product {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.highlighted-product__header {
+    font-size: 2rem;
+}
+
+.highlighted-product__cta {
+    background: var(--black);
+    color: var(--white);
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+    padding: 10px 16px;
+    border: 1px solid var(--white);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.highlighted-product__cta.highlighted-product__cta.highlighted-product__cta a {
+    color: var(--white);
+}

@@ -7,9 +7,11 @@
     transition: all .2s ease-in-out;
   }
 
-  .header a {
+  .header a:visited {
     text-decoration: none;
+    color: initial;
   }
+
   
   .header__title {
       transition: all .2s ease-in-out;

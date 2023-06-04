@@ -19,4 +19,6 @@
   </div>
 </section>
 
+<?php include 'highlighted-product.php';?>
+
 <?php get_footer(); ?>
