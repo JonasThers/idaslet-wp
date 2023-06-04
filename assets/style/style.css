@@ -13,6 +13,10 @@ input, textarea {
   color: var(--black);
 }
 
+a:visited {
+  color: initial;
+}
+
 :root {
   --black: #010101;
   --white: #dbdbdb;
@@ -33,6 +37,10 @@ input, textarea {
           justify-content: space-between;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
+}
+
+.header a {
+  text-decoration: none;
 }
 
 .header__title {

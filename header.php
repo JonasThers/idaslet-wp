@@ -14,7 +14,9 @@
 <body>
   <header id="<?php echo (is_front_page()) ? "header" : ''; ?>"
     class="header <?php echo (is_front_page()) ? "" : 'header--black'; ?>">
-    <h1 id="<?php echo (is_front_page()) ? "header-title" : ''; ?>"
-      class="header__title <?php echo (is_front_page()) ? "" : 'header__title--white'; ?>"><?php bloginfo('name'); ?>
-    </h1>
+    <a href="<?php echo home_url(); ?>">
+      <h1 id="<?php echo (is_front_page()) ? "header-title" : ''; ?>"
+        class="header__title <?php echo (is_front_page()) ? "" : 'header__title--white'; ?>"><?php bloginfo('name'); ?>
+      </h1>
+    </a>
   </header>
