@@ -5,6 +5,14 @@ body {
   font-family: 'EB Garamond', serif;
 }
 
+input, textarea {
+  padding: 5px;
+  borde-radius: 5px;
+  font-family: 'EB Garamond', serif;
+  font-size: 16px;
+  color: var(--black);
+}
+
 :root {
   --black: #010101;
   --white: #dbdbdb;
@@ -213,21 +221,59 @@ tr {
   color: var(--white);
 }
 
-.woocommerce-checkout-review-order {
+.back-button.back-button.back-button {
+  background: var(--black);
   color: var(--white);
+  border: 1px solid var(--white);
 }
 
-.checkout input, textarea {
-  padding: 5px;
-  borde-radius: 5px;
-  font-family: 'EB Garamond', serif;
-  font-size: 16px;
-  color: var(--black);
+.woocommerce-checkout-review-order {
+  color: var(--white);
 }
 
 .selection span {
   font-size: 16px;
   color: var(--black);
+}
+
+.product-page-title {
+  font-size: 3rem;
+}
+
+.product-page-price.product-page-price {
+  font-size: 1.75rem;
+}
+
+.single_add_to_cart_button {
+  background: var(--black);
+  color: var(--white);
+  font-family: 'EB Garamond', serif;
+  font-size: 16px;
+  padding: 10px 16px;
+  border: 1px solid var(--white);
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.wc-tabs {
+  display: none;
+}
+
+.simple-add input {
+  width: 90px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1200px) {
+  .product {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
 html {
