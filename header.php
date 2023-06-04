@@ -21,5 +21,10 @@
         class="header__title <?php echo (is_front_page()) ? "" : 'header__title--white'; ?>"><?php bloginfo('name'); ?>
       </h1>
     </a>
-    <a href="/cart" class="minicart"><img class="minicart__logo" src="<?= get_template_directory_uri() . './assets/img/shopping-cart.png'; ?>" /><?php if ($woocommerce->cart->get_cart_contents_count()) : ?><span class="minicart__amount"><?php echo $woocommerce->cart->get_cart_contents_count() ?></span><?php endif; ?></a>
+    <a href="/cart" class="minicart"><img class="minicart__logo"
+        src="<?= get_template_directory_uri() . './assets/img/shopping-cart.png'; ?>" /><?php if ($woocommerce->cart->get_cart_contents_count()): ?><span class="minicart__amount">
+          <?php echo $woocommerce->cart->get_cart_contents_count() ?>
+        </span>
+      <?php endif; ?>
+    </a>
   </header>
