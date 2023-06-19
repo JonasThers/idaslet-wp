@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
-<section class="hero"></section>
+<section class="hero" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>');">
+</section>
 <section class="about">
   <div class="about__description">
     <?php the_content(); ?>
