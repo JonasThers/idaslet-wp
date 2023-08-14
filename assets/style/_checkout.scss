@@ -6,3 +6,12 @@
     font-size: 16px;;
     color: var(--black);
 }
+
+.woocommerce ul.order_details,
+.woocommerce table.shop_table {
+    color: var(--white);
+}
+
+.woocommerce table.shop_table {
+    border: 1px solid var(--white);
+}
