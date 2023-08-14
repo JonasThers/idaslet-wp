@@ -32,6 +32,11 @@
     display: flex;
     margin-top: 1rem;
 }
+
+.woocommerce-product-gallery__thumbnails a,
+.woocommerce-product-gallery__wrapper a {
+    border: 0;
+}
   
 @media only screen and (min-width: 1200px) {
   .product {
