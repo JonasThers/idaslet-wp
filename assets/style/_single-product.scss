@@ -1,5 +1,6 @@
 .product-page-title {
     font-size: 3rem;
+    margin-top: 0;
 }
 
 .product-page-price.product-page-price {
@@ -26,10 +27,19 @@
     margin-bottom: 1rem;
     text-align: center;
 }
+
+.woocommerce-product-gallery__thumbnails {
+    display: flex;
+    margin-top: 1rem;
+}
   
 @media only screen and (min-width: 1200px) {
   .product {
     display: flex;
     justify-content: space-between;
+  }
+
+  .entry-summary {
+    margin-left: 1.5rem;
   }
 }
