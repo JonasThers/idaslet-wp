@@ -29,5 +29,6 @@ add_action('get_header', 'remove_admin_login_header');
 add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
 add_filter( 'woocommerce_product_tabs', 'my_remove_product_tabs', 98 );
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );
+remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20 );
 
 ?>
