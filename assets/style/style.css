@@ -355,6 +355,62 @@ tr {
   color: var(--white);
 }
 
+.product-card-price {
+  color: var(--white);
+  font-size: 18px;
+  margin-right: 1rem;
+}
+
+.page-title {
+  color: var(--white);
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.products {
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  padding-left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+}
+
+.products .product {
+  display: block;
+  width: 300px !important;
+  margin-bottom: 2rem;
+}
+
+.added_to_cart {
+  background: var(--black);
+  color: var(--white);
+  font-family: 'EB Garamond', serif;
+  font-size: 16px;
+  padding: 10px 16px;
+  border: 1px solid var(--white);
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+#sidebar,
+.woocommerce-ordering,
+.woocommerce-result-count {
+  display: none;
+}
+
+@media only screen and (min-width: 1200px) {
+  .products {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 300px 300px 300px 300px;
+        grid-template-columns: 300px 300px 300px 300px;
+    grid-gap: 3rem;
+    max-width: 1350px;
+  }
+}
+
 html {
   margin-top: 0 !important;
 }
